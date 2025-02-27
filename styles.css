@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 
-.header {
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -154,6 +154,12 @@ button {
     .image, .content {
         width: 100%;
         text-align: center;
+    }
+    .image {
+        display: none;
+    }
+    .image-container{
+        display: none;
     }
 }
 
